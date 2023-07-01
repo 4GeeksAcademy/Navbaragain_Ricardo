@@ -10,3 +10,64 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: o 1rem;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: 0;
+    display: flex;
+    gap: 1rem;
+}
+.nav a {
+    color: inherit;
+    text-decoration: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+   
+
+}
+.nav li.active {
+    background-color: #555;
+
+}
+
+.nav li.hover {
+    background-color: #777;
+
+
+}
